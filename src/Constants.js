@@ -15,8 +15,10 @@ import { DiNodejs } from "react-icons/di";
 
 const myDetails = {
   name: "Sunil Devabattula",
-  role: "Web developer",
+  role: "Full Stack developer",
   email: "sunildevabathula013@gmail.com",
+  image:
+    "https://res.cloudinary.com/sunil013/image/upload/v1722066603/profile_pic_scvupm.png",
   phone: "9553901412",
   dailCode: "+91",
 };
@@ -58,25 +60,29 @@ const workData = [
     name: "Frontend Development",
     description:
       "Specializing in frontend technologies to create intuitive user interfaces and responsive web applications.",
-    imageUrl: "/images/iconDev.svg",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066597/iconDev_pl8p0k.svg",
   },
   {
     name: "Backend Development",
     description:
       "Experienced in backend development using frameworks like Spring, focusing on robust server-side functionalities and seamless integration.",
-    imageUrl: "/images/iconDev.svg",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066597/iconDev_pl8p0k.svg",
   },
   {
     name: "Clean Code",
     description:
       "Dedicated to writing clean, maintainable code following best practices and coding standards.",
-    imageUrl: "/images/iconDesign.svg",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066596/iconDesign_tqprso.svg",
   },
   {
     name: "Performance Improvement",
     description:
       "Focused on optimizing application performance to enhance efficiency and user experience.",
-    imageUrl: "/images/iconDev.svg",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066597/iconDev_pl8p0k.svg",
   },
 ];
 
@@ -131,7 +137,8 @@ const projectsData = [
     id: "1",
     title: "Covid19 Dashboard",
     category: projectCategories[1].id,
-    imageUrl: "/images/project1.png",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066607/project1_vrjzna.png",
     description:
       "Implemented a responsive Covid Dashboard where users can see confirmed, active, recovered and deceased cases in India state wise. Users also can search by state and see state specific cases info with different types of graphs",
     techStack: "HTML, React JS, Recharts, Figma",
@@ -142,7 +149,8 @@ const projectsData = [
     id: "2",
     title: "Nxt Trendz (ECommerce)",
     category: projectCategories[1].id,
-    imageUrl: "/images/nxttrendz.png",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066601/nxttrendz_emcpt2.png",
     description:
       "Implemented Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart where users can login and can see list of products with search, filters, sort by, etc..",
     techStack: "React JS, Html, Routing, REST API Calls,  JWT Token",
@@ -153,7 +161,8 @@ const projectsData = [
     id: "3",
     title: "Gpt3",
     category: projectCategories[1].id,
-    imageUrl: "/images/chatGpt3.png",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066608/project3_z8qstu.png",
     description:
       "Implemented Nxt Watch application which is a clone for YouTube, where users can login and can watch videos of different categories along with search option user can save the video to watch later etc..",
     techStack: "React JS, Html, Routing, REST API Calls, JWT Token",
@@ -164,7 +173,8 @@ const projectsData = [
     id: "4",
     title: "Jobby App",
     category: projectCategories[1].id,
-    imageUrl: "/images/jobby.png",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066598/jobby_ysjdcl.png",
     description:
       "Implemented Jobby App where users can log in and can see a list of jobs with search by Job title, filters based on Salary range and Employment type, etc",
     techStack: "React JS, Html, Routing, REST API Calls, JWT Token",
@@ -175,7 +185,8 @@ const projectsData = [
     id: "5",
     title: "Todos Application",
     category: projectCategories[1].id,
-    imageUrl: "/images/todoList.png",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066608/todoList_v5nrl0.png",
     description:
       "Developed persistent todo application with CRUD operations to track list of tasks, Users can add, delete tasks and also mark as completed",
     techStack: "HTML, CSS, JS, Bootstrap",
@@ -186,7 +197,8 @@ const projectsData = [
     id: "6",
     title: "Food Munch",
     category: projectCategories[1].id,
-    imageUrl: "/images/foodMunch.png",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066597/foodMunch_dd5rpr.png",
     description:
       "Developed a responsive website for Food Store where users can see a list of food items, detailed information about a food item, offers.",
     techStack: "HTML, CSS, Bootstrap",
@@ -197,7 +209,8 @@ const projectsData = [
     id: "7",
     title: "Twitter API",
     category: projectCategories[2].id,
-    imageUrl: "/images/twitter.png",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066612/twitter_cmzmhq.png",
     description:
       "Implemented a Twitter API where users can see different APIs like login, register. if the User is an Authenticated User he can see the latest tweets, followers, following people, Likes and Replies to the Tweets. Every time user send a request it checks whether Authenticated or not by user JWT token. Based on the User request perform Create, Read, Update operations on the database.",
     techStack: "Node JS, JavaScript, Express JS, SQL, Bcrypt",
@@ -207,7 +220,8 @@ const projectsData = [
     id: "8",
     title: "TodoList API",
     category: projectCategories[2].id,
-    imageUrl: "/images/todo.png",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066608/todo_ddnka9.png",
     description:
       "Implemented a TodoList API where users can request Data along with filters like Priority, Status, Category, Search by Todo name and also request with date. it Returns a list of all todos with a specific due date by taking the date and filters in query parameters. Add new Todo using POST Http method. Based on the User request perform Create, Read, Update operations on the database.",
     techStack: "Node JS, JavaScript, Express JS, SQL, Bcrypt",
@@ -217,7 +231,8 @@ const projectsData = [
     id: "9",
     title: "Covid19 Portal",
     category: projectCategories[2].id,
-    imageUrl: "/images/project2.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066604/project2_jr2ane.jpg",
     description:
       "Implemented a Covid Portal API where users need to login or register to send requests to API. users can see confirmed, active, recovered and deceased cases in India state wise. Users also can search by state and see state specific cases info with district wise data. the database contains three tables state, district and users to store the users data. send the data based on the user request.",
     techStack: "Node JS, JavaScript, Express JS, SQL, Authentication",

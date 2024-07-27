@@ -9,7 +9,7 @@ const Sidebar = () => {
       <div className="avatar-container">
         <div className="avatar">
           <img
-            src="/images/profile_pic.png"
+            src={myDetails.image}
             alt="sunil devabattula"
             className="avatar-img"
           />
