@@ -63,6 +63,7 @@ width: 45px;
         width: 30px;
         height: 30px;
         min-width: 30px;
+        padding-top: 6px;
     }
     .edu-time{
         font-size: 12px;

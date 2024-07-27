@@ -162,7 +162,7 @@ const projectsData = [
     title: "Gpt3",
     category: projectCategories[1].id,
     imageUrl:
-      "https://res.cloudinary.com/sunil013/image/upload/v1722066608/project3_z8qstu.png",
+      "https://res.cloudinary.com/sunil013/image/upload/v1722066596/chatGpt3_vmxw3h.png",
     description:
       "Implemented Nxt Watch application which is a clone for YouTube, where users can login and can watch videos of different categories along with search option user can save the video to watch later etc..",
     techStack: "React JS, Html, Routing, REST API Calls, JWT Token",

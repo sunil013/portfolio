@@ -43,4 +43,7 @@
     .projects-container{
         grid-template-columns: 1fr;
     }
+    .projects-container{
+        margin-top: 10px;
+    }
 }
