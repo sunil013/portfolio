@@ -1,0 +1,14 @@
+.media-link{
+    color: hsla(0, 0%, 84%, 0.7);
+    font-size: 22px;
+}
+.media-link:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 500px) {
+    .media-link{
+    font-size: 20px;
+    }
+}

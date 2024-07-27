@@ -1,0 +1,21 @@
+.contact-me-txt{
+color: hsl(0, 0%, 84%);
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.contact-email-link{
+    color: hsl(45, 100%, 72%);
+}
+
+@media screen and (max-width: 900px) {
+    .contact-me-txt{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-me-txt {
+        font-size: 15px;
+    }
+}

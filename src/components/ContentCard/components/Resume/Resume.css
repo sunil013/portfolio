@@ -1,0 +1,85 @@
+.resume-book-icon {
+    position: relative;
+    background: linear-gradient(to bottom right,
+            hsl(0, 0%, 25%) 0%,
+            hsla(0, 0%, 25%, 0) 50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: hsl(45, 100%, 72%);
+    box-shadow: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+    z-index: 1;
+}
+
+.resume-book-icon::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: hsl(240, 2%, 13%);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.resume-head-conatiner{
+    gap: 15px;
+}
+
+.educations-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    background: linear-gradient(to bottom right,
+                hsl(0, 0%, 25%) 0%,
+                hsla(0, 0%, 25%, 0) 50%);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.skills-container::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: linear-gradient(to bottom right,
+            hsla(240, 1%, 18%, 0.251) 0%,
+            hsla(240, 2%, 11%, 0) 100%),
+        hsl(240, 2%, 13%);
+    border-radius: inherit;
+    z-index: -1;
+}
+
+.skills-container-new{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .resume-head-conatiner{
+        gap: 10px;
+    }
+    .resume-book-icon{
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .skills-container{
+        padding: 15px;
+        gap: 20px;
+    }
+}

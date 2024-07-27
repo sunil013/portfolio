@@ -1,0 +1,19 @@
+ .exp-description{
+color: hsl(0, 0%, 84%);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 10px;
+ }
+
+ @media screen and (max-width: 900px) {
+    .exp-description{
+        font-size: 16px;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+     .exp-description {
+         font-size: 14px;
+     }
+ }

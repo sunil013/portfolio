@@ -1,0 +1,14 @@
+.skill-item-new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-icon-new{
+    color:hsl(45, 100%, 72%);
+    font-size: 50px;
+}
+.skill-name-new{
+    color: hsl(0, 0%, 98%);
+    font-size: 18px;
+    margin-top: 8px;
+}
