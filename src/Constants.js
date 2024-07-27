@@ -7,6 +7,9 @@ import {
   SiMui,
   SiHtml5,
   SiCss3,
+  SiMongodb,
+  SiTailwindcss,
+  SiBootstrap,
 } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 
@@ -267,6 +270,10 @@ const skillsDataNew = [
     Icon: SiExpress,
   },
   {
+    name: "MongoDB",
+    Icon: SiMongodb,
+  },
+  {
     name: "SQL",
     Icon: SiSqlite,
   },
@@ -285,6 +292,14 @@ const skillsDataNew = [
   {
     name: "Css",
     Icon: SiCss3,
+  },
+  {
+    name: "Tailwindcss",
+    Icon: SiTailwindcss,
+  },
+  {
+    name: "Bootstrap",
+    Icon: SiBootstrap,
   },
 ];
 

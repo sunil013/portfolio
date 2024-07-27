@@ -20,7 +20,7 @@ const About = () => {
       <h3 className="h3-title">What I'm Doing</h3>
       <div className="work-items-container">
         {workData.map((item, i) => (
-          <div className="work-item">
+          <div className="work-item" key={i}>
             <img src={item.imageUrl} alt="webdev" width="40" />
             <div>
               <h4 className="work-name">{item.name}</h4>

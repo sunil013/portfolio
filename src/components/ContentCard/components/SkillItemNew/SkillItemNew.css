@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100px;
 }
 .skill-icon-new{
     color:hsl(45, 100%, 72%);
@@ -11,4 +12,29 @@
     color: hsl(0, 0%, 98%);
     font-size: 18px;
     margin-top: 8px;
+}
+
+@media screen and (max-width: 900px) {
+    .skill-item-new{
+        width: 80px;
+    }
+    .skill-name-new{
+      font-size: 16px;
+    }
+    .skill-icon-new{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   .skill-item-new{
+    width: 60px;
+   }
+   .skill-name-new{
+    font-size: 12px;
+    text-align: center;
+   }
+   .skill-icon-new {
+    font-size: 30px;
+   }
 }

@@ -3,10 +3,10 @@ import "./SkillItemNew.css";
 
 const SkillItemNew = ({ data }) => {
   return (
-    <div className="skill-item-new">
+    <li className="skill-item-new">
       <data.Icon className="skill-icon-new" />
       <p className="skill-name-new">{data.name}</p>
-    </div>
+    </li>
   );
 };
 
