@@ -4,6 +4,7 @@ import { CiMail, CiMobile1 } from "react-icons/ci";
 import { myDetails, socialMediaData } from "../../../../Constants";
 import SocialMediaLinks from "../SocialMediaLinks/SocialMediaLinks";
 import { IsDesktop } from "../../../../Utils/CssUtils";
+import { logEvent } from "../../../../config/Firebase";
 
 const ContactDetails = () => {
   const isDektop = IsDesktop();
@@ -17,7 +18,11 @@ const ContactDetails = () => {
           </div>
           <div>
             <p className="contact-txt">Email</p>
-            <a className="contact-link" href={`mailto:${myDetails.email}`}>
+            <a
+              className="contact-link"
+              onClick={() => logEvent("Email_clicked", {})}
+              href={`mailto:${myDetails.email}`}
+            >
               {myDetails.email}
             </a>
           </div>
@@ -30,6 +35,7 @@ const ContactDetails = () => {
             <p className="contact-txt">Phone</p>
             <a
               className="contact-link"
+              onClick={() => logEvent("phone_clicked", {})}
               href={`tel:${myDetails.dailCode}${myDetails.phone}`}
             >
               {myDetails.phone}

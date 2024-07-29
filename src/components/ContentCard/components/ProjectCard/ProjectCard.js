@@ -2,6 +2,7 @@ import React from "react";
 import { AiFillEye } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import "./ProjectCard.css";
+import { logEvent } from "../../../../config/Firebase";
 
 const ProjectCard = ({ data }) => {
   return (
@@ -13,6 +14,7 @@ const ProjectCard = ({ data }) => {
               href={data.previewLink}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => logEvent(`${data.title}_view_site`, {})}
             >
               <div className="project-icon">
                 <AiFillEye />
@@ -20,7 +22,12 @@ const ProjectCard = ({ data }) => {
             </a>
           )}
           {data.githubLink && (
-            <a href={data.githubLink} target="_blank" rel="noopener noreferrer">
+            <a
+              href={data.githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => logEvent(`${data.title}_view_git`, {})}
+            >
               <div className="project-icon">
                 <FiGithub />
               </div>

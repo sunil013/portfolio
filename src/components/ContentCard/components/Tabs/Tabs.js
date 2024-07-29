@@ -1,6 +1,7 @@
 import React from "react";
 import "./Tabs.css";
 import { tabsData } from "../../../../Constants";
+import { logEvent } from "../../../../config/Firebase";
 
 const Tabs = ({ activeTab, setActiveTab }) => {
   return (
@@ -9,7 +10,10 @@ const Tabs = ({ activeTab, setActiveTab }) => {
         <button
           className={`tab-btn ${activeTab === item.id ? "active-tab" : ""}`}
           key={item.id}
-          onClick={() => setActiveTab(item.id)}
+          onClick={() => {
+            logEvent(item.name, {});
+            setActiveTab(item.id);
+          }}
         >
           {item.name}
         </button>
