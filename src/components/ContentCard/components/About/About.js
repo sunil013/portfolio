@@ -13,9 +13,9 @@ const About = () => {
       </p>
       <p className="about-me">
         Complementing my frontend skills, I excel in backend development using
-        the Spring framework. My focus is on seamless integration and robust
-        functionality across all layers of web applications, ensuring high
-        performance and adherence to best practices.
+        the Spring Boot and Node.js. My focus is on seamless integration and
+        robust functionality across all layers of web applications, ensuring
+        high performance and adherence to best practices.
       </p>
       <h3 className="h3-title">What I'm Doing</h3>
       <div className="work-items-container">

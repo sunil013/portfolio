@@ -66,7 +66,7 @@ const workData = [
   {
     name: "Backend Development",
     description:
-      "Experienced in backend development using frameworks like Spring, focusing on robust server-side functionalities and seamless integration.",
+      "Experienced in backend development using frameworks like Spring Boot and Node.js, focusing on robust server-side functionalities and seamless integration.",
     imageUrl:
       "https://res.cloudinary.com/sunil013/image/upload/v1722066597/iconDev_pl8p0k.svg",
   },
@@ -265,7 +265,7 @@ const skillsDataNew = [
     Icon: FaReact,
   },
   {
-    name: "Spring",
+    name: "Spring Boot",
     Icon: SiSpring,
   },
   {
