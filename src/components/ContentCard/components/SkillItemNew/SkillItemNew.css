@@ -12,6 +12,7 @@
     color: hsl(0, 0%, 98%);
     font-size: 18px;
     margin-top: 8px;
+    text-align: center;
 }
 
 @media screen and (max-width: 900px) {

@@ -7,8 +7,8 @@ const About = () => {
     <div className="content-body">
       <h2 className="content-head">About Me</h2>
       <p className="about-me">
-        I am a Full Stack Developer passionate about crafting dynamic web
-        applications. Specializing in frontend development with React.js, I
+        I am a Software Development Engineer passionate about crafting dynamic
+        web applications. Specializing in frontend development with React.js, I
         create intuitive interfaces that prioritize user experience.
       </p>
       <p className="about-me">

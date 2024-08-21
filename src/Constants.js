@@ -15,7 +15,7 @@ import { DiNodejs } from "react-icons/di";
 
 const myDetails = {
   name: "Sunil Devabattula",
-  role: "Full Stack developer",
+  role: "Software development Engineer",
   email: "sunildevabathula013@gmail.com",
   image:
     "https://res.cloudinary.com/sunil013/image/upload/v1722066603/profile_pic_scvupm.png",
@@ -110,8 +110,8 @@ const educationData = [
 const experienceData = [
   {
     company: "IndigoLearn",
-    role: "Full Stack Developer",
-    duration: "Jan 2023 - Present",
+    role: "SDE-1",
+    duration: "Jan 2023 - Aug 2024",
     description:
       "Designed and implemented multiple web pages emphasizing intuitive interfaces and responsive design. Identified and fixed bugs, added new features, and optimized performance. Conducted code reviews to ensure quality and adherence to standards. Applied UI/UX best practices for visually appealing and user-friendly designs.<br/>Supported backend using Spring framework, collaborating on integrating frontend with backend services for seamless functionality.",
   },
